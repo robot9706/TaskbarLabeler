@@ -9,7 +9,7 @@ Some parts of the project (mostly the injection code and the injected code) is b
 
 ## Pictures
 
-![taskbar](pics/taskbar.png)
+![taskbar](pics/taskbar.PNG)
 
 ![app](pics/app.png)
 
