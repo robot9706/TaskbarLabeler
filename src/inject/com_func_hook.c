@@ -352,7 +352,7 @@ static int ButtonGroupFirstButtonIndex(LONG_PTR lpMMTaskListLongPtr, LONG_PTR *b
 				button_group_type = FUNC_BUTTONGROUP_TYPE(button_groups[i]);
 				if(button_group_type == 1)
 				{
-					plp = (LONG_PTR *)button_groups[i][DO2(5, 7)];
+					plp = FUNC_BUTTONGROUP_BUTTONS(button_groups[i]);
 
 					buttons_count = (int)plp[0];
 					buttons = (LONG_PTR **)plp[1];
